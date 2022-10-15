@@ -28,7 +28,8 @@ class LoginForm extends Component {
     Cookies.set('jwt_token', jwtToken, {
       expires: 30,
     })
-    return <Home />
+
+    history.replace('/')
   }
 
   onSubmitFailure = errorMsg => {
