@@ -19,6 +19,7 @@ const Home = () => {
           <img
             src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-home-img.png"
             className="home-mobile-img"
+            alt="clothes that get you noticed"
           />
           <p className="home-description">
             Fashion is part of the daily air and it does not quite help that it
