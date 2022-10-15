@@ -2,8 +2,6 @@ import {Component} from 'react'
 import {Redirect} from 'react-router-dom'
 import Cookies from 'js-cookie'
 
-import Home from '../Home'
-
 import './index.css'
 
 class LoginForm extends Component {
